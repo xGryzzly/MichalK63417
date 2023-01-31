@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Dane osobowe</title>
+
+	<meta name="description" content="Strona pracownicza ERP HR" />
+	<meta name="keywords" content="strona, pracownicza, ERP HR" />
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+
+	<script src="timer.js"></script>
+
+</head>
+
+<body onload="time();">
+	<div id="top">Witaj w panelu pracowniczym!
+		<div id="timer"></div>
+	</div>
+
+		<div id="sidebar">
+		<div class="user">Jan Nowak <br/> <br/>
+			<img src="img/pracownik.jpg"; width="150"; height="150";/><br/>
+		<a href="logowanie.html">Wyloguj</a>
+		</div>
+
+		<a class="sidebarlink" href="index.html"><div class="optionL">Strona główna</div></a>
+		<a class="sidebarlink" href="aktualnosci.html"><div class="optionL">Aktualności</div></a>
+		<a class="sidebarlink" href="ofirmie.html"><div class="optionL">O firmie</div></a>
+		<a class="sidebarlink" href="naszzespol.html"><div class="optionL">Nasz zespół</div></a>
+		<a class="sidebarlink" href="oddzialy.html"><div class="optionL">Oddziały</div></a>
+		<a class="sidebarlink" href="partnerzy.html"><div class="optionL">Partnerzy</div></a>
+
+
+		</div>
+
+	<div id="container">
+
+
+		<div class="square2">
+			<div class="news">
+				Dane osobowe
+			</div>
+
+			<div class="news3">
+				<form>
+				Imię: <input type="text"></br>
+				Nazwisko: <input type="text"></br>
+				Nr telefonu: <input type="text"></br>
+				E-mail: <input type="text"></br>
+				Adres zamieszkania: <input type="text"></br>
+				Data urodzenia: <input type="text"></br>
+				</form>
+				<input type="submit" value="Zapisz" onclick="delay1s()"/>
+			</div>
+
+			<div style="clear:both;"></div>
+
+		</div>
+
+		<div style="clear: both;"></div>
+
+	</div>
+
+
+</body>
+</html>
